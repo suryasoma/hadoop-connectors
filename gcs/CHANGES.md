@@ -1,7 +1,21 @@
 # Release Notes
 
 ## Next
+
+## 3.1.15 - 2026-03-26
+1. Add Integration test for chained Downscoping Interceptors
+1. Enable move by default
+1. Enable HNS flag by default
+
+## 3.1.14 - 2026-03-09
+1. Implement trailing checksums to enable server-side data validation.
+
+## 3.1.13 - 2026-03-06
+1. PR #1647 - [Bug] fix thread local metrics
+
+## 3.1.12 - 2026-02-19
 1. PR #1413 - [Bug] Fixing DeleteFolder stalling issue where high CPU usage can cause timeouts
+1. Add retry for ListObjects.
 
 ## 3.1.11 - 2025-12-10
 1. PR #1581 - [Bug] Add idempotency token header in JSON client for GCS

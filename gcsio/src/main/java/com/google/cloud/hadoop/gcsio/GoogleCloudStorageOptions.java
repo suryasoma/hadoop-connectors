@@ -65,9 +65,9 @@ public abstract class GoogleCloudStorageOptions {
         .setOperationTraceLogEnabled(false)
         .setTrafficDirectorEnabled(true)
         .setWriteChannelOptions(AsyncWriteChannelOptions.DEFAULT)
-        .setHnBucketRenameEnabled(false)
+        .setHnBucketRenameEnabled(true)
         .setGrpcWriteEnabled(false)
-        .setMoveOperationEnabled(false)
+        .setMoveOperationEnabled(true)
         .setStorageClientCachingEnabled(false)
         .setHnOptimizationEnabled(false);
   }
